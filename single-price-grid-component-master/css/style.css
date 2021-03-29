@@ -1,0 +1,119 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --gray: hsl(204, 43%, 93%);
+    --grayishblue: hsl(218, 22%, 67%);
+    --heavier-font: 700;
+    --lighter-font: 100;
+    --font-size-larger: 30px;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url(https://fonts.google.com/specimen/Karla);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);  
+}
+
+.lower-community {
+    display: flex;
+    flex-flow: row;
+}
+
+@media (max-width: 500px) {
+    .flex-container {
+        top: 20%;
+        left: 20%;
+        transform: translate(-20%, 0%); 
+    }
+
+    .lower-community {
+      flex-direction: column;
+    }
+
+    .subscription {
+        border-bottom-left-radius: 0px !important; 
+    }
+
+    .why {
+        border-bottom-left-radius: 15px; 
+    }    
+  }
+
+.community {
+    padding: 2em;
+    color: var(--grayishblue);
+    font-weight: lighter;
+}
+
+.community-h2 {
+    font-weight: var(--heavier-font);
+    color: var(--cyan);
+}
+
+.community-p {
+    font-weight: bolder;
+    color: var(--yellow);
+}
+
+.subscription {
+    padding: 2em;
+    color: var(--gray);
+    background-color: var(--cyan);
+    border-bottom-left-radius: 15px; 
+    flex: 1 0;
+}
+
+.why {
+    padding: 2em;
+    color: var(--gray);
+    background-color: var(--cyan);
+    opacity: 0.85;
+    font-weight: var(--lighter-font);
+    flex: 1 0;
+    border-bottom-right-radius: 15px; 
+    font-weight: 100;
+}
+
+.access {
+    font-size: 15px;
+}
+
+.button {
+    background-color: var(--yellow);
+    border: none;
+    color: var(--gray);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.subscription-rate {
+    font-weight: var(--lighter-font);
+}
+
+.rate {
+    font-weight: bold;
+    font-size: var(--font-size-larger);
+}
