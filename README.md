@@ -29,8 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](<img width="513" alt="Screenshot" src="https://user-images.githubusercontent.com/9915738/113478176-ceccae80-94a4-11eb-9de5-5dd8d6e7b573.png">
-./screenshot.jpg)
+<img width="513" alt="Screenshot" src="https://user-images.githubusercontent.com/9915738/113478176-ceccae80-94a4-11eb-9de5-5dd8d6e7b573.png">
 
 
 ### Links
