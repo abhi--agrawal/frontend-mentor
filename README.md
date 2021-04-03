@@ -54,14 +54,14 @@ The usage of classes and class names can be a lot better.
 
 ### Useful resources
 
-- [Flexbox] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me to know about flex boxes in general.
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me to know about flex boxes in general.
 - [Responsive Flexbox](https://www.w3schools.com/css/css3_flexbox_responsive.asp) - This helped me to make the flexbox responsive for the mobile sites.
 
 ## Author
 
 - Website - [Abhishek Agrawal](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@abhi--agrawal](https://www.frontendmentor.io/profile/abhi--agrawal)
+- Twitter - [@abhi__agrawal](https://www.twitter.com/abhi__agrawal)
 
 ## Acknowledgments
 
